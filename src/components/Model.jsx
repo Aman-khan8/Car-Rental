@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import { useState } from 'react'
+import model1 from "../assets/model1.jpg"
 function Model() {
    
     
@@ -11,7 +12,7 @@ const  cars=[{
         capacity:'4',
         transmission:'Manual / AGS Auto',
         rent: '25$',
-        path:'https://cdn.wheel-size.com/automobile/body/suzuki-alto-k10-2022-2025-1713844501.423384.jpg'
+        path: model1
      
          
     },
