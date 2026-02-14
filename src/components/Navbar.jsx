@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <> 
-      <div className=" flex justify-between w-full h-[10vh] p-8 md:p-3 bg-white lg:px-40 sticky top-0 shadow-md items-center ">
+      <div className=" z-10 flex justify-between w-full h-[10vh] p-8 md:p-3 bg-white lg:px-40 sticky top-0 shadow-md items-center ">
         
         <div className="w-14 h-14">
           <img src={Logo} alt="logo" className="w-full h-full object-contain" />

@@ -6,7 +6,7 @@ function Home() {
   return (
  
     <>
-     <div className='sm:w-[80%] w-[100%] h-full flex justify-center items-center gap-x-5'>
+     <div className=' z-0 sm:w-[80%] w-[100%] h-full flex justify-center items-center gap-x-5'>
           <div className='w-[90%] flex '>
             <div className='sm:mt-30 space-y-3'> 
               <h4 className='sm:text-base text-xl font-bold'>Plan your trip now</h4>

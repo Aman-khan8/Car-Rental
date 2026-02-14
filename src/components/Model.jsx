@@ -2,6 +2,11 @@ import React from 'react'
 import Button from './Button'
 import { useState } from 'react'
 import model1 from "../assets/model1.jpg"
+import model2 from "../assets/model2.png"
+import model3 from "../assets/model3.png"
+import model4 from "../assets/model4.png"
+import model5 from "../assets/model5.jpg"
+import model6 from "../assets/model6.jpg"
 function Model() {
    
     
@@ -22,7 +27,7 @@ const  cars=[{
         fuelEconomy:'12 KM/L city,18 KM/L highway',
         capacity:'5',
         rent: '28$',
-        path:'https://suzukifortmotors.com/wp-content/uploads/2020/12/Suzuki-Cultus-White.jpg',
+        path: model2,
         transmission:'Manual / AGS Auto',
           
     },
@@ -33,7 +38,7 @@ const  cars=[{
         capacity:'5',
         rent: '32$',
         transmission:'Manual / AGS Auto',
-        path:'https://cache1.pakwheels.com/system/car_generation_pictures/6425/original/Honda_City_Front.jpg?1651424945'
+        path: model3
                  
     },
      {
@@ -43,7 +48,7 @@ const  cars=[{
         capacity:'5',
         rent: '38$',
         transmission:'CVT / MT',
-        path:'https://media.toyota.com.ar/5019492b-2618-458b-91ee-6cefd1ca98a0.png'
+        path: model4
          
     },
      {
@@ -53,7 +58,7 @@ const  cars=[{
         capacity:'5',
         rent: '38$',
         transmission:'MT / 5-speed DCT',
-        path:'https://changansouth.com/wp-content/uploads/2024/07/Changan-Alsvin-black-edition.jpg'
+        path: model5
     },
      {
         name:'KIA Sportage',
@@ -62,7 +67,7 @@ const  cars=[{
         capacity:'7',
         rent: '45$',
         transmission:'Automatic',
-         path:'https://rently.pk/content/vehicles/1730196203333-Kia%20Sportage%20crpt.jpg'
+         path: model6
     },    
 
 ]
